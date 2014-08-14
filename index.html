@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Villasanti Francisco">
+	<meta content="favicon.ico" itemprop="image">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stickyfooter.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradients {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+<body>
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">VideoTest</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li ><a href="#">Contáctenos</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="row">
+        <button id="playBtn" class="btn btn-primary" onclick="playVideo()" ><span class="glyphicon glyphicon-play"></span></button>
+        <button id="pauseBtn" class="btn btn-default" onclick="pauseVideo()" ><span class="glyphicon glyphicon-pause"></span></button>
+      </div>
+      <div class="row">
+        <video id="video1" width="480px" height="320px" controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+        <video id="video2" width="480px" height="320px" controls>
+          <source src="video2.mp4" type="video/mp4">
+        </video>
+        <video id="video3" width="480px" height="320px" controls>
+          <source src="video3.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+
+      <!-- FOOTER -->
+      <footer id="footer">
+        
+        <p>&copy; 2014 WorkCloud Software. &middot;</p>
+      </footer>
+
+
+
+	<script src="jquery-1.11.0.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
