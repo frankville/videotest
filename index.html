@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,15 +52,20 @@
         <button id="pauseBtn" class="btn btn-default" onclick="pauseVideo()" ><span class="glyphicon glyphicon-pause"></span></button>
       </div>
       <div class="row">
-        <video id="video1" width="480px" height="320px" controls>
-          <source src="video.mp4" type="video/mp4">
+        <video id="video1" autoplay width="480px" height="320px" controls loop>
+            <source src="http://localhost:5000" type="video/webm">
         </video>
-        <video id="video2" width="480px" height="320px" controls>
-          <source src="video2.mp4" type="video/mp4">
+        <video id="video2" autoplay width="480px" height="320px" controls>
+           <source src="http://10.8.0.251:5001" type="video/ogg">
         </video>
-        <video id="video3" width="480px" height="320px" controls>
-          <source src="video3.mp4" type="video/mp4">
+        <video id="video3" width="480px" autoplay height="320px" controls>
+          <source src="http://10.8.0.251:5002" type="video/ogg">
         </video>
+        <video id="video4" width="480px" autoplay height="320px" controls>
+          <source src="http://10.8.0.251:5003" type="video/webm">
+          <source src="http://192.168.0.103:5003" type="video/webm">
+        </video>
+        <input id="algo" type="month">
       </div>
     </div>
 
@@ -76,5 +81,6 @@
 	<script src="jquery-1.11.0.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 	<script src="index.js"></script>
+
 </body>
 </html>

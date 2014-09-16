@@ -8,6 +8,11 @@ $(document).ready(function(){
 		//event.pŕeventDefault();
 		pauseVideo();
 */
+
+	$("#algo").change(function(){
+		console.log($("input").val()+"-01");
+	});
+
 });
 
 

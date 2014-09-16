@@ -1,0 +1,19 @@
+{
+  "name": "videotest",
+  "version": "0.0.0",
+  "description": "test for html5 video tag",
+  "main": "nodevideoserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankville/videotest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankville/videotest/issues"
+  },
+  "homepage": "https://github.com/frankville/videotest"
+}
